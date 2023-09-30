@@ -29,15 +29,23 @@
 
 .social-icons {
     padding: 12px 0;
+    margin: 15px 0;
+    
 }
 
 .social-icons a:not(:last-of-type) {
     margin-inline-end: 12px;
+   
 }
 
 .social-icons a svg {
     height: 26px;
     width: 26px;
+}
+
+/*custom add by Rahmah*/
+.social-icons a:hover { 
+    color: aquamarine;
 }
 
 code {
@@ -66,3 +74,4 @@ div.highlight:hover .copy-code,
 pre:hover .copy-code {
     display: block;
 }
+

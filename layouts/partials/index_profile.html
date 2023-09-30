@@ -30,10 +30,20 @@
             height="{{ .imageHeight | default 150 }}" width="{{ .imageWidth | default 150 }}" />
         {{- end }}
         {{- end }}
-        <h1>{{ .title | default site.Title | markdownify }}</h1>
-        <h2>{{ .title2 | markdownify }}</h2>
-        <span>{{ .subtitle | markdownify }}</span>
-        {{- partial "social_icons.html" site.Params.socialIcons -}}
+       
+        <!-- <span class="typewriter transparent move step" style="--n:22;"><h1>{{ .title | default site.Title | markdownify }}</h1>
+            <h2 class=" typewriter move" style="--n:53">{{ .title2 | markdownify }}</h2>
+            <p style="--n:53">{{ .subtitle | markdownify }}</p>
+        </span> -->
+        <!-- <span class="typewriter transparent move step" style="--n:22;">
+            {{ .title | default site.Title | markdownify }}
+            {{ .title2 | markdownify }}
+            {{ .subtitle | markdownify }}
+        </span> -->
+            <h1 class="title_typewriter">{{ .title | default site.Title | markdownify }}</h1>
+            <h2 class="subtitle_typewriter" >{{ .title2 | markdownify }}</h2> 
+            <p class="paragraph_typewriter">{{ .subtitle | markdownify }}</p>
+            {{- partial "social_icons.html" site.Params.socialIcons -}} 
 
         {{- with .buttons }}
         <div class="buttons">

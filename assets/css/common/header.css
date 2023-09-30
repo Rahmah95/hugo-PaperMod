@@ -36,6 +36,11 @@
     margin-inline-end: 8px;
 }
 
+/*custom added by Rahmah*/
+.logo a:hover{
+    color: aquamarine;
+}
+
 button#theme-toggle {
     font-size: 26px;
     margin: auto 4px;
@@ -44,10 +49,22 @@ button#theme-toggle {
 body.dark #moon {
     vertical-align: middle;
     display: none;
+    
+}
+
+/*custom added by Rahmah*/
+#moon:hover {
+    color: aquamarine;
 }
 
 body:not(.dark) #sun {
     display: none;
+    
+}
+
+/*custom added by Rahmah*/
+#sun:hover {
+    color: aquamarine;
 }
 
 #menu {
@@ -68,6 +85,13 @@ body:not(.dark) #sun {
 #menu .active {
     font-weight: 500;
     border-bottom: 2px solid currentColor;
+    color:aquamarine; /*custom added by Rahmah*/
+   
+}
+
+/*custom added by Rahmah*/
+#menu a:hover {
+    color: aquamarine;
 }
 
 .lang-switch li,
