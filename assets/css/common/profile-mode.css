@@ -19,8 +19,10 @@
 /* custom added by Rahmah */
 .profile .profile_inner h2 {
     padding: 8px 0;
+    margin: 4px 0;
 
 }
+
 
 .profile .profile_inner span {
     padding: 6px 0;
@@ -142,13 +144,13 @@
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   animation: 
     typing3 3s steps(25, end),
-    blink-caret 1.5s step-end infinite;
+    blink-caret 2.5s step-end infinite;
   width: 0;
   animation-fill-mode: forwards;
 }
 
 /* The typing effect */
- @keyframes typing {
+ /* @keyframes typing {
     from { width: 0 }
     to { width: 99% }
     
@@ -158,7 +160,7 @@
     from { width: 0% }
     to { width: 63% }
     
-  }
+  } */
   
 @keyframes typing3 {
     from { width: 0 }
@@ -170,7 +172,7 @@
     from, to {border-color: transparent} 
     15% {border-color: aquamarine;}
   }
-  @keyframes blink-caret2 {
+  /* @keyframes blink-caret2 {
     from, to { border-color: aquamarine }
     50% { border-color: transparent }
   }
@@ -178,4 +180,4 @@
   @keyframes blink-caret3 {
     from, to { border-color: aquamarine }
     50% { border-color: transparent }
-  }
+  } */
