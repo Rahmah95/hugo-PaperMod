@@ -13,14 +13,12 @@
 .profile .profile_inner h1 {
     padding: 12px 0;
     text-align: center;
-    margin: 8px;
 
 }
 
 /* custom added by Rahmah */
 .profile .profile_inner h2 {
     padding: 8px 0;
-    margin: 4px 0;
 
 }
 
@@ -29,10 +27,6 @@
     padding: 6px 0;
 }
 
-.profile .profile_inner p {
-  padding: 8px 0;
-  margin: 8px;
-}
 .profile img {
     display: inline-table;
     border-radius: 50%;
