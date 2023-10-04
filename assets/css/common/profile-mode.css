@@ -19,8 +19,8 @@
 
 /* custom added by Rahmah */
 .profile .profile_inner h2 {
-    padding: 12px 0;
-    margin: 8px;
+    padding: 10px 0;
+    margin: 6px;
 
 }
 
@@ -30,7 +30,7 @@
 
 .profile .profile_inner p {
   padding: 8px 0;
-  margin: 8px;
+  margin: 4px;
 }
 .profile img {
     display: inline-table;
