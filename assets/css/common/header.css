@@ -4,6 +4,12 @@
     }
   }
 
+  @media screen and (max-width: 600px) {
+    #menu a {
+        font-size: 25px;
+    }
+  }
+
 .nav {
     display: flex;
     flex-wrap: wrap;
