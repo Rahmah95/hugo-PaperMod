@@ -189,7 +189,7 @@
   /* The typewriter cursor effect */
   @keyframes blink-caret {
     from, to {border-color: transparent} 
-    15% {border-color: aquamarine;}
+    50% {border-color: aquamarine;}
   }
   /* @keyframes blink-caret2 {
     from, to { border-color: aquamarine }
